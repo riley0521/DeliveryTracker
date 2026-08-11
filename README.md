@@ -26,4 +26,5 @@ An android application take home test that calls API endpoint from https://mocka
   map so customers can see their delivery progress?
     - **Answer**: I can see that we can do this in 2 ways: The first one is using polling, we will call the API endpoint every X seconds to refresh the status automatically while the user is in detail screen. The second method is to use WebSockets, both customer and driver will be connected in WebSocket, the driver will send a new location every X seconds, and the customer will be notified without spamming the server.
 
-
+# How to run
+- Clone or fork the project, build, then run. No extra configurations needed.
