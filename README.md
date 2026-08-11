@@ -1,7 +1,8 @@
-
 # Delivery Tracker
-
 An android application take home test that calls API endpoint from https://mockapi.io
+
+# Feature
+- In detail screen, I've added a refresh mechanism that will fire every 10 seconds to get the near real-time updates.
 
 # Tech stack
 - Kotlin coroutines - Write asynchronous code in a synchronous way. Coroutines made network calls easier in this project.
